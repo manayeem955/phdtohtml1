@@ -1,0 +1,179 @@
+/* Global Css */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+ /* Header Part */
+ header{
+     background: url(../IMG/background-1.png) no-repeat;
+    width: 100%;
+    float: left;
+    background-size: cover;
+    padding: 10px 0px;
+ }
+ /* Main-Header */
+ .main-header{
+     width: 100%;
+     float: left;
+     padding: 10px 0px;
+
+ }
+ .logo-part{
+    float: left;
+    width: 50%;
+
+ }
+ .logo-part img{
+  
+
+ }
+ .menu-part{
+ float: left;
+ width: 50%;
+ text-align: end;
+ }
+ .menu-part ul{
+   margin: 10px auto;
+
+ }
+ .menu-part li{ 
+  list-style: none;
+  display: inline-block;
+ 
+
+ }
+ .menu-part a {
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: 700;
+     margin: 25px;
+     color: white;
+
+ }
+ /* Hero Part */
+ .hero{
+     width: 100%;
+     float: left;
+    text-align: center;
+ }
+
+.hero h1 {
+    padding-top: 75px;
+
+
+}
+.hero p{
+
+}
+.hero  a button{
+
+}
+
+.hero img{
+    display: block;
+    width: 200px;
+    margin: auto;
+
+}
+
+#feature{
+          width: 100%;
+          float: left;
+          background: url(../IMG/background-2.png);
+         padding: 100px 0px;
+          background-size: cover;
+       
+          position: relative;
+          top: -200px;
+}
+.feature-img-part{
+        width:30%;
+        float: left;
+        
+     
+}
+.feature-img-part img{
+    width: 220px;
+    margin-top: 200px;
+}
+
+.feature-box-part{
+             width: 70%;
+             float: left;
+             padding: 50px 0px;
+             
+}
+
+             
+
+.feature-box{
+       width: 100%;
+       float: left;  
+        
+       
+           
+}
+.feature-one{
+    width: 50%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(95, 95, 95);
+    position: relative;
+    top: 90px;
+
+}
+.feature-two{
+    width: 50%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(95, 95, 95);
+    position: relative;
+    top:150px ;
+    left: 50px;
+}
+.feature-three{
+    width: 50%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(95, 95, 95);
+    position: relative;
+    top: 150px;
+    left: -40px;
+}
+
+.feature-four{
+    width: 50%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(95, 95, 95);
+    position: relative;
+    top: 205px;
+    left: 13px;
+    
+
+}
+.feature-one:hover {
+    background-color: brown;
+   opacity: initial;
+}
+.feature-two:hover {
+    background-color: brown;
+}
+
+.feature-three:hover {
+    background-color: brown;
+}
+.feature-four:hover {
+    background-color: brown;
+}
